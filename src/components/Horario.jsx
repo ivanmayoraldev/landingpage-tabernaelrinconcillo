@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 
 const schedule = {
-  0: { day: "Domingo", open: "07:00", close: "22:00" },
-  1: { day: "Lunes", open: "07:00", close: "22:00" },
-  2: { day: "Martes", open: "07:00", close: "22:00" },
+  0: { day: "Domingo", open: "08:00", close: "19:00" },
+  1: { day: "Lunes", open: "07:00", close: "20:00" },
+  2: { day: "Martes", open: "07:00", close: "20:00" },
   3: { day: "Miércoles", open: null, close: null },
-  4: { day: "Jueves", open: "07:00", close: "22:00" },
-  5: { day: "Viernes", open: "07:00", close: "23:55" },
-  6: { day: "Sábado", open: "07:00", close: "23:55" },
+  4: { day: "Jueves", open: "07:00", close: "20:00" },
+  5: { day: "Viernes", open: "07:00", close: "23:30" },
+  6: { day: "Sábado", open: "07:00", close: "23:30" },
 };
 
 function parseTime(str) {
